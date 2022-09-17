@@ -1,9 +1,6 @@
 /*eslint-disable*/
-import React, { useEffect, useState } from 'react';
-import { Row, Col, Grid } from 'react-bootstrap';
-import { Button, Drawer, Space } from 'antd';
-import Select from "react-select";
-import axios from "axios";
+import React, { useState } from 'react';
+import { Row } from 'react-bootstrap';
 import pic from "../paperflite_logo.png";
  import image from "../Fishing-2.jpg";
 import 'antd/dist/antd.css';
