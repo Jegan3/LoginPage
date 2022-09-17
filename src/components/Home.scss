@@ -1,0 +1,128 @@
+body {
+    background: white;
+}
+
+.container {
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end; 
+    align-items: center;
+    padding-right: 18%;
+}
+
+.container>.form {
+    width: 350px;
+    height: 500px;
+    left: 788px;
+    top: 172px;
+    background: #E4EEF5;
+    box-shadow: 0px 4px 20px;
+    backdrop-filter: blur(12.5px);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+button {
+    width: 100%;
+    height: 42px;
+    background: #E51058;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    color: red;
+}
+
+h1 {
+    font-style: normal;
+    //font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #717274;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    background-color: #E4EEF5;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.forget-pass {
+    text-align: end;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #E51058;
+    cursor: pointer;
+}
+
+.sign {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    cursor: default;
+}
+
+.signup {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #E51058;
+    cursor: pointer;
+
+}
+
+.details {
+    height: 58%;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.pic {
+    width: 55%;
+    position: relative;
+    left: -12px;
+}
+.unlock-signup{
+    position: absolute;
+    top: 57%;
+    right: 25px;
+}
